@@ -9,7 +9,7 @@ function ScrollToTopButton (){
     }
 
     return (
-        <button onClick={handleClick}>
+        <button className="buttontotop" onClick={handleClick}>
             &#9650;
         </button>
     );
